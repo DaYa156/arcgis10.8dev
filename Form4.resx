@@ -117,45 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="axToolbarControl1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAwgAAAAIB
-        AAAAAQAAAAAAAAAAAAAAAK0AAAAPAAAAAgAAAAEAAAAKAAAAAQAAAAkAAAAA+1YAAFECAAAAAAAAIAAA
-        AGEAeABTAGMAZQBuAGUAQwBvAG4AdAByAG8AbAAxAAAA///0AQAAAAAAAAAAAAAAAAAAAP////8AAAAA
-        DQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAIAAAAAAAAAPAACAAAAA
-        AAAAAAAQAAAAEAAAAAs=
-</value>
-  </data>
-  <data name="axLicenseControl1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAKgAAAAIB
-        AAAAAQAAAAAAAAAAAAAAABUAAAABAAAAAgAAAAEAAAAKAAAAAAAAAAAL
-</value>
-  </data>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="axTOCControl1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAkAAAAAIB
-        AAAAAQAAAAAAAAAAAAAAAHsAAAAHAAAAAgAAAAEAAAAKAAAAAQAAAAkAAAAAIAAAAGEAeABTAGMAZQBu
-        AGUAQwBvAG4AdAByAG8AbAAxAAAAAAAAAAEAAAAAAAAA//8AAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAA
-        AABIEQAAHzAAAAAAAgAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="axSceneControl1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAeAAAAAIB
-        AAAAAQAAAAAAAAAAAAAAAGMAAAAJAAAAAgAAAAEAAAAKAAAAAQAAAAkAAAAAtEUAAB8wAAAAAP///wAB
-        AAAAAQAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA9AEAAAAAAAAL
-</value>
-  </data>
 </root>
