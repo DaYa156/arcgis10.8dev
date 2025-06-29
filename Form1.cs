@@ -30,7 +30,8 @@ namespace 秦淮河流域概览
             InitializeComponent();
             
         }
-
+        private IWorkspace _workspace;
+        private string _gdbPath;
 
 
 
@@ -231,8 +232,50 @@ namespace 秦淮河流域概览
 
         private void 从数据库中加载数据ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form4 frm_4 = new Form4();
-            frm_4.Show();
+            _workspace = null;
+            var dlg = new Form4();
+            dlg.Owner = this;            // 指定拥有者
+            dlg.ShowDialog();            // 阻塞模式，也可用 Show()
         }
+        public void SetWorkspace(string gdbPath, IWorkspace workspace)
+        {
+            _gdbPath = gdbPath;
+            _workspace = workspace;
+        }
+        public void AddLayerToScene(string datasetName)
+        {
+            if (_workspace == null)
+            {
+                MessageBox.Show("请先打开并选择一个数据库！");
+                return;
+            }
+
+            // —— 尝试加载要素类 —— 
+            var featWs = _workspace as IFeatureWorkspace;
+            if (featWs != null)
+            {
+                try
+                {
+                    var fc = featWs.OpenFeatureClass(datasetName);
+                    var featLayer = new FeatureLayerClass
+                    {
+                        FeatureClass = fc,
+                        Name = fc.AliasName
+                    };
+                    axSceneControl1.Scene.AddLayer((ILayer)featLayer);
+                    axSceneControl1.Refresh();
+                    return;
+                }
+                catch
+                {
+                    // 不是要素类，继续
+                }
+            }
+
+            
+
+            MessageBox.Show($"无法识别类型，加载“{datasetName}”失败。");
+        }
+
     }
 }

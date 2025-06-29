@@ -41,9 +41,9 @@ namespace 秦淮河流域概览
             this.读取栅格文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.点生成tinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.生成等高线ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.从数据库中加载数据ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.axTOCControl1 = new ESRI.ArcGIS.Controls.AxTOCControl();
             this.axSceneControl1 = new ESRI.ArcGIS.Controls.AxSceneControl();
-            this.从数据库中加载数据ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.axToolbarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -129,6 +129,13 @@ namespace 秦淮河流域概览
             this.生成等高线ToolStripMenuItem.Text = "生成等高线";
             this.生成等高线ToolStripMenuItem.Click += new System.EventHandler(this.生成等高线ToolStripMenuItem_Click);
             // 
+            // 从数据库中加载数据ToolStripMenuItem
+            // 
+            this.从数据库中加载数据ToolStripMenuItem.Name = "从数据库中加载数据ToolStripMenuItem";
+            this.从数据库中加载数据ToolStripMenuItem.Size = new System.Drawing.Size(173, 24);
+            this.从数据库中加载数据ToolStripMenuItem.Text = "从数据库中加载要素类";
+            this.从数据库中加载数据ToolStripMenuItem.Click += new System.EventHandler(this.从数据库中加载数据ToolStripMenuItem_Click);
+            // 
             // axTOCControl1
             // 
             this.axTOCControl1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -147,13 +154,6 @@ namespace 秦淮河流域概览
             this.axSceneControl1.Size = new System.Drawing.Size(843, 582);
             this.axSceneControl1.TabIndex = 6;
             this.axSceneControl1.OnMouseDown += new ESRI.ArcGIS.Controls.ISceneControlEvents_Ax_OnMouseDownEventHandler(this.axSceneControl1_OnMouseDown);
-            // 
-            // 从数据库中加载数据ToolStripMenuItem
-            // 
-            this.从数据库中加载数据ToolStripMenuItem.Name = "从数据库中加载数据ToolStripMenuItem";
-            this.从数据库中加载数据ToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
-            this.从数据库中加载数据ToolStripMenuItem.Text = "从数据库中加载数据";
-            this.从数据库中加载数据ToolStripMenuItem.Click += new System.EventHandler(this.从数据库中加载数据ToolStripMenuItem_Click);
             // 
             // Form1
             // 
