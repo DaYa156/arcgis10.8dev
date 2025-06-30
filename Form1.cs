@@ -73,6 +73,10 @@ namespace 秦淮河流域概览
             var zoomInScene = new ControlsSceneZoomInTool();
             axToolbarControl1.AddItem(zoomInScene, -1, -1, false, 0, esriCommandStyles.esriCommandStyleIconOnly);
             zoomInScene.OnCreate(axSceneControl1.Object);
+            var zoomOutScene = new ControlsSceneZoomOutTool();
+            axToolbarControl1.AddItem(zoomOutScene, -1, -1, false, 0, esriCommandStyles.esriCommandStyleIconOnly);
+            zoomOutScene.OnCreate(axSceneControl1.Object);
+
 
             // 5. 漫游工具
             var panScene = new ControlsScenePanTool();
